@@ -9,6 +9,8 @@ This project demonstrates the deployment of a functional Active Directory Domain
 - **Windows Server Administration:** Installed and promoted a server to a Domain Controller.
 - **Infrastructure Troubleshooting:** Validated domain connectivity and DNS resolution.
 
-## Next Steps
-- [ ] Add screenshots of the Domain Controller setup.
-- [ ] Document the process of adding a test workstation to the domain.
+## Implementation Steps
+1. Created an Azure Virtual Network.
+2. Deployed a Windows Server Virtual Machine.
+3. Installed and configured Active Directory Domain Services.
+4. Promoted the server to a Domain Controller.
