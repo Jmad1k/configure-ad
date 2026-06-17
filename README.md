@@ -14,3 +14,4 @@ This project demonstrates the deployment of a functional Active Directory Domain
 2. Deployed a Windows Server Virtual Machine.
 3. Installed and configured Active Directory Domain Services.
 4. Promoted the server to a Domain Controller.
+5. User Management: Created Organizational Units (OU) and added test user accounts to verify proper authentication.
