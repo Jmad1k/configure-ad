@@ -1,3 +1,9 @@
+<p align="left">
+  <img src="images/1_9DxO5nO1O4Z6w3ra5Go60w-4172338739.png" width="500" alt="Active Directory Logo">
+</p>
+
+# Active Directory Domain Services (AD DS) Deployment
+
 # Configuring On-premises Active Directory within Azure VMs
 
 ## Project Overview
@@ -16,9 +22,19 @@ This project demonstrates the deployment of a functional Active Directory Domain
 4. Promoted the server to a Domain Controller.
 5. User Management: Created Organizational Units (OU) and added test user accounts to verify proper authentication.
 
+<br>
 
-![Active Directory Setup](ad-setup.png)
-*Figure 1: Server Manager dashboard confirming AD DS installation.*
+![Azure Resource Group Architecture](images/RGOverview.png)
+*Figure 1: Creation of Azure Resource Group architecture containing the Domain Controller (dc-1) and Client VM (Client-1), providing an organized foundation for the domain environment.*
 
-![Test Users and OUs](ad-users.png)
-*Figure 2: Active Directory Users and Computers view showing organizational structure.*
+
+![Azure Resource Group Architecture](images/RGCloseUp.png)
+*Figure 1(a): Close up of Overview of Resource group .*
+
+<br>
+
+<a href="images/DNSCl.png">
+  <img src="images/DNSCl.png" alt="DNS Verification">
+</a>
+*Figure 2: (Click to Enlarge) Verifying DNS connectivity from the Client VM. The 'ipconfig /all' output confirms the primary DNS server correctly points to the Domain Controller’s private IP address, enabling domain name resolution.*
+
