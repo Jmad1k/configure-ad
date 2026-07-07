@@ -10,7 +10,7 @@
 This project demonstrates the deployment of a functional Active Directory Domain Services (AD DS) environment within a Microsoft Azure virtual network. The goal was to simulate an enterprise-level identity management infrastructure in a hybrid cloud environment.
 
 ## Key Skills Demonstrated
-- **Active Directory Domain Services (AD DS):** Managed users, groups, and domain policies.
+- **Active Directory Domain Services (AD DS):** Managed users and groups.
 - **Azure Networking:** Configured Virtual Networks (VNet) and subnets.
 - **Windows Server Administration:** Installed and promoted a server to a Domain Controller.
 - **Infrastructure Troubleshooting:** Validated domain connectivity and DNS resolution.
@@ -51,6 +51,16 @@ This project demonstrates the deployment of a functional Active Directory Domain
   <img src="images/DomContSS.png" alt="DNS Verification">
 </a>
 *Figure 4: (Click to Enlarge) Active Directory Users and Computers (ADUC) confirming the server is recognized as a Domain Controller within the domain hierarchy.*
+
+---
+
+**5. User Management & Authentication**
+![User Management](images/OUStructure.png)
+*Figure 5: Organizational Unit (OU) structure and user management. Implementation of segregated OUs (Admins, Clients, Employees). Automated population of 1,000 test user accounts using Powershell Script to simulate a production-scale environment.*
+
+**5(a). User Management & Authentication**
+![User Management](images/OUcloseUp.png)
+*Figure 5(a): Close up view of structure.*
 
 
 
