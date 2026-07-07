@@ -31,17 +31,26 @@ This project demonstrates the deployment of a functional Active Directory Domain
 ![Azure Resource Group Architecture](images/RGCloseUp.png)
 *Figure 1(a): Close up of Overview of Resource group .*
 
-<br>
+---
 
 <a href="images/DNSCl.png">
   <img src="images/DNSCl.png" alt="DNS Verification">
 </a>
 *Figure 2: (Click to Enlarge) Verifying DNS connectivity from the Client VM. The 'ipconfig /all' output confirms the primary DNS server correctly points to the Domain Controller’s private IP address, enabling domain name resolution.*
 
-<br>
+---
 
 <a href="images/SerManDash.png">
   <img src="images/SerManDash.png" alt="DNS Verification">
 </a>
 *Figure 3: (Click to Enlarge) Server Manager dashboard showing successful deployment and operational status of Active Directory Domain Services (AD DS) and DNS.. (Note: Minor status alerts in 'Local Server' are standard for an isolated lab VM environment and do not impact core functionality.*
+
+---
+
+<a href="images/DomContSS.png">
+  <img src="images/DomContSS.png" alt="DNS Verification">
+</a>
+*Figure 4: (Click to Enlarge) Active Directory Users and Computers (ADUC) confirming the server is recognized as a Domain Controller within the domain hierarchy.*
+
+
 
