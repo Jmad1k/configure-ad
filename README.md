@@ -62,5 +62,23 @@ This project demonstrates the deployment of a functional Active Directory Domain
 ![User Management](images/OUcloseUp.png)
 *Figure 5(a): Close up view of structure.*
 
+---
+
+---
+### Project Summary
+This lab successfully demonstrates core IT infrastructure skills, including cloud-based virtual networking, server administration, and identity management. These steps reflect a foundational understanding of deploying scalable, secure network environments.
+
+**Key Skills:**
+* Microsoft Azure (VNet & VM Management)
+* Windows Server Administration
+* Active Directory Domain Services (AD DS)
+* User & Group Policy Management
+
+  ---
+### About Me
+**Gerardo Madera** | IT Professional
+
+*I am currently seeking opportunities in IT Support and Systems Administration. Feel free to connect or reach out regarding potential opportunities.*
+
 
 
